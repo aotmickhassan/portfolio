@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Aotmick Hassan</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-icons"></i>
+      <button class="visit-btn">visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="images/profile.jpeg" alt="me" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Aotmick Hassan</h1>
+            <span>Fronted Developer</span>
+          </div>
+          <div class="btn-group">
+            <div class="btn">Download CV</div>
+            <div class="btn">Contact</div>
+          </div>
+          <div class="socials">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Fronted Development</span>
+            <h3>5 Years</h3>
+            <p>
+              As a Frontend Developer, I specialize in creating responsive,
+              user-friendly web interfaces using modern technologies.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-file-code"></i>
+            <span>Graphic Designer</span>
+            <h3>1 Year</h3>
+            <p>
+              As a Graphic Designer, I create visually appealing and engaging
+              designs.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Content Creator</span>
+            <h3>2 Years</h3>
+            <p>
+              As a Content Creator, I produce engaging and informative content.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-brands fa-centos"></i>
+            <span>System Designer</span>
+            <h3>3 Years</h3>
+            <p>
+              As a System Designer, I create efficient and scalable system
+              architectures.
+            </p>
+          </div>
+        </div>
+        <img src="images/profile.jpeg" alt="me" />
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/p1.jpeg" alt="project-1" />
+          <h3>Project X</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A,
+            perferendis?
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/p2.jpeg" alt="project-2" />
+          <h3>Project Y</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A,
+            perferendis?
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/p3.jpeg" alt="project-3" />
+          <h3>Project Z</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A,
+            perferendis?
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input">
+          <input type="text" placeholder="example@email.com" />
+          <i class="fa-solid fa-envelope-open-text"></i>
+        </div>
+        <div class="btn">Submit</div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">
+        <i id="copy" class="fa-solid fa-copyright"></i>All Rights Reserved |
+        Aotmick Hassan
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
